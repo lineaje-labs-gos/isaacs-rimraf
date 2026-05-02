@@ -1,6 +1,6 @@
 {
   "name": "rimraf",
-  "version": "6.1.3",
+  "version": "6.1.3-lineaje-01",
   "type": "module",
   "tshy": {
     "main": true,
@@ -31,7 +31,16 @@
   "description": "A deep deletion module for node (like `rm -rf`)",
   "author": "Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me/)",
   "license": "BlueOak-1.0.0",
-  "repository": "git@github.com:isaacs/rimraf.git",
+  "contributors": [
+    {
+      "name": "Lineaje DepFixer",
+      "email": "221268890+Lineaje-DepFixer@users.noreply.github.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lineaje-labs-gos/isaacs-rimraf"
+  },
   "scripts": {
     "preversion": "npm test",
     "postversion": "npm publish",
