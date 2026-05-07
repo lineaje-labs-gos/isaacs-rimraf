@@ -37,5 +37,11 @@
   },
   "funding": {
     "url": "https://github.com/sponsors/isaacs"
+  },
+  "overrides": {
+    "minimatch": ">=3.1.5"
+  },
+  "resolutions": {
+    "minimatch": ">=3.1.5"
   }
 }
